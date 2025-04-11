@@ -17,8 +17,7 @@
             app.__vue__.reviewPermission.liveAuthority = true;
 
             console.log('✅ 权限已设置为 true');
-            clearInterval(checkInterval);
         }
-    }, 10);
+    }, 1000);
 })();
 
