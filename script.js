@@ -14,7 +14,7 @@
             console.log('🎯 找到 Vue 实例和权限对象');
 
             app.__vue__.reviewPermission.courseAuthority = true;
-            app.__vue__.reviewPermission.reviewAuthority = true;
+            app.__vue__.reviewPermission.liveAuthority = true;
 
             console.log('✅ 权限已设置为 true');
             clearInterval(checkInterval);
